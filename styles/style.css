@@ -1,7 +1,103 @@
+* {
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
 nav{
     display: flex;
     justify-content: space-between;
+}
+
+.serch-bar {
+    position: relative;
+    color: #bababa;
+}
+
+.serch-bar input{
+    width: 500px;
+    border-radius: 66px;
+    padding: 15px 30px;
+    background-color: rgb(241, 241, 241);
+    border: none;
+}
+
+.serch-bar i {
+    position: absolute;
+    top: 17px;
+    right: 20px;
+}
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(112, 112, 112);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+/* End of nav bar */
+/* Start of banner */
+.banner {
+    background-color: rgb(254, 234, 233);
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    background-color: #f8f9fa;
+    width: 100%;          /* Full width */
+    max-width: 1280px;    /* Optional - nav এর সাথে match করার জন্য */
+    margin: 0 auto;       /* Center align */
+    height: 455px;
+    padding: 0 2rem;      /* content এর জন্য padding */
+}
+
+.banner h1{
+    color: rgb(31, 31, 31);
+    font-family: Poppins;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 84px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.banner p{
+    color: rgb(78, 78, 78);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.banner h2{
+    color: rgb(255, 19, 111);
+    font-family: Poppins;
+    font-size: 41px;
+    font-weight: 500;
+    line-height: 62px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+button{
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 41px;
+    font-weight: 500;
+    line-height: 62px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 6px;
+/* Linear */
+background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
 }
